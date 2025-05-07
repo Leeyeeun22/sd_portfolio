@@ -1,236 +1,353 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="css/style.css">
-    <title>escape cafe</title>
-</head>
-<body>
-    
-    <!-- header starts -->
-     <header class="header">
-        <div class="flex">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
-            <a href="#" class="logo"><img src="images/logo.png" alt=""></a>
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- css file link  (ctrl + /) -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>이예은의 포트폴리오</title>
+</head>
+
+<body>
+    <!-- header starts -->
+    <header class="header">
+        <div class="flex">
+            <a href="#" class="logo">LYE</a>
             <nav class="nav">
-                <a href="#banner">이스케이프</a>
-                <a href="#thema">테마예약</a>
-                <a href="#recommend">테마추천</a>
-                <a href="#method">이용안내</a>
-                <a href="#inquire">문의</a>
+                <a href="#home">home</a>
+                <a href="#about">about</a>
+                <a href="#work">work</a>
+                <a href="#skill">skill</a>
+                <a href="#portfolio">portfolio</a>
             </nav>
 
             <div id="menuBtn" class="fa-solid fa-bars"></div>
-        </div>
-     </header>
+    </header>
     <!-- header ends -->
 
     <!-- banner starts -->
-     <div class="banner" id="banner">
+    <div class="home" id="home">
 
-        <section class="contents">
-            <p>아무도 탈출하지 못한 타로카드 속의 미로</p>
-            <h2>TAROT CARD ESCAPE</h2>
+        <section>
+            <div class="content">
+                <h3>이예은's PORTFOLIO</h3>
+                <p>다재다능한 웹퍼블리셔 이예은입니다</p>
+            </div>
         </section>
-     </div>
+    </div>
     <!-- banner ends -->
 
-    <!-- thema starts -->
-     <div class="thema" id="thema">
+    <!-- about starts -->
+    <div class="about" id="about">
 
         <section>
-            <div class="title">
-                <h2>테마 예약하기</h2>
+            <div class="container">
+                <div class="img">
+                    <img src="images/banner_img.jpg" alt="">
+                </div>
+
+                <div class="content">
+                    <h2>About <span class="highlight">Me</span></h2>
+                    <h3>안녕하세요! 프론트엔드 개발자를</br> 꿈꾸는 웹퍼블리셔 이예은입니다.</h3>
+                    <div class="content_box">
+                        <p><i class="fa-regular fa-user"></i> 이름 : 이예은</p>
+                        <p><i class="fa-regular fa-calendar"></i> 생년월일 : 1998.08.03</p>
+                        <p><i class="fa-regular fa-address-card"></i> 학력 : 계명대 게임모바일학과 졸업</p>
+                        <p><i class="fa-regular fa-envelope"></i> 이메일 : com0748@naver.com</p>
+                    </div>
+                </div>
             </div>
+        </section>
+    </div>
+    <!-- about ends -->
+
+    <div class="work" id="work">
+
+        <section>
+            <h2 class="highlight">WORK</h2>
 
             <div class="container">
 
                 <div class="box">
-                    <img src="images/game_1.JPG" alt="">
-                    <h2>행복한 마을</h2>
-                    <div class="box_content">
-                        <p>난이도 : <span>하</span></p>
-                        <p>장르 : Horror</p>
-                        <p>인원 : 최대 4명 <span>(60분)</span></p>
+                    <div class="content">
+                        웹디자인학과 과정 교육 이수 (2022.02.14 ~ 2022.05.10)
                     </div>
-                    <div class="re_btn">예약하기</div>
+                    <div class="content">
+
+                        뿌리깊은나무학원 페이지 관리 및 디자인 유지보수 (2020.12.31 ~ 2021.05.29)
+                    </div>
+
                 </div>
 
                 <div class="box">
-                    <img src="images/game_2.PNG" alt="">
-                    <h2>기묘한 마을</h2>
-                    <div class="box_content">
-                        <p>난이도 : <span>중</span></p>
-                        <p>장르 : mystery</p>
-                        <p>인원 : 최대 3명 <span>(70분)</span></p>
-                    </div>
-                    <div class="re_btn">예약하기</div>
-                </div>
+                    <div class="content">
 
-                <div class="box">
-                    <img src="images/game_3.JPG" alt="">
-                    <h2>신기한 마을</h2>
-                    <div class="box_content">
-                        <p>난이도 : <span>하</span></p>
-                        <p>장르 : fantasy</p>
-                        <p>인원 : 최대 2명 <span>(60분)</span></p>
+                        ㈜디지엔터테인먼트 웹 개발 부서 현장실습 교육참여 (2020.07.06 ~ 2020.08.28)
                     </div>
-                    <div class="re_btn">예약하기</div>
-                </div>
 
-                <div class="box">
-                    <img src="images/game_4.PNG" alt="">
-                    <h2>이상한 마을</h2>
-                    <div class="box_content">
-                        <p>난이도 : <span>상</span></p>
-                        <p>장르 : mystery</p>
-                        <p>인원 : 최대 3명 <span>(80분)</span></p>
-                    </div>
-                    <div class="re_btn">예약하기</div>
-                </div>
+                    <div class="content">
 
-                <div class="box">
-                    <img src="images/game_5.PNG" alt="">
-                    <h2>무서운 마을</h2>
-                    <div class="box_content">
-                        <p>난이도 : <span>상</span></p>
-                        <p>장르 : Horror</p>
-                        <p>인원 : 최대 4명 <span>(80분)</span></p>
+                        (주)투유즈 주식회사에서 프론트&백엔드 업무, 외주 관리자페이지 개발(프론트&백엔드), 자사 관리자페이지 디자인 수정 및 유지보수 (2022.06.20 ~
+                        2023.04.20)
                     </div>
-                    <div class="re_btn">예약하기</div>
-                </div>
-
-                <div class="box">
-                    <img src="images/game_6.PNG" alt="">
-                    <h2>조용한 마을</h2>
-                    <div class="box_content">
-                        <p>난이도 : <span>하</span></p>
-                        <p>장르 : Horror</p>
-                        <p>인원 : 최대 4명 <span>(60분)</span></p>
-                    </div>
-                    <div class="re_btn">예약하기</div>
                 </div>
             </div>
         </section>
-     </div>
-    <!-- thema ends -->
+    </div>
 
-    <!-- money starts -->
-     <div class="recommend" id="recommend">
+    <div class="skill" id="skill">
 
         <section>
-            <div class="title">
-                <h2>테마추천</h2>
-                <p>테마별 인원수 추천</p>
-            </div>
+            <h2 class="highlight">SKILL</h2>
 
-            <div class="container">
+            <div class="sk_container">
 
                 <div class="box">
-                    <div class="image"><img src="images/horror_img.jpg" alt=""></div>
-                    
-                    <h3>horror</h3>
-                    <div class="content">
-                        <p>긴장되는 분위기 속 무서움을 이겨내고 탈출
-                    </br>인원 : <span>2~4인</span> 추천</p>
-                    </div>
-
-                    <div class="mnBtn"><span>예약하기</span></div>
+                    <img src="images/html.svg" alt="">
+                    <span>HTML</span>
+                    <p>기본적인 홈페이지 틀을 깔끔하게 구현할 수 있습니다.</p>
                 </div>
-
                 <div class="box">
-                    <div class="image"><img src="images/reason_img.jpg" alt=""></div>
-                    <h3>mystery</h3>
-                    <div class="content">
-                        <p>복잡한 미로 속 서로 협력하여 문제를 해결
-                    </br>인원 : <span>2~3인</span> 추천</p>
-                    </div>
-                    <div class="mnBtn"><span>예약하기</span></div>
+                    <img src="images/css.svg" alt="">
+                    <span>CSS & SCSS</span>
+                    <p>SCSS를 구현하여 CSS의 장점과 단점을 보완하여 훨씬 더 깔끔한 구조와 문법을 사용할 수 있습니다</p>
                 </div>
-
                 <div class="box">
-                    <div class="image"><img src="images/fantasy_img.jpg" alt=""></div>
-                    <h3>fantasy</h3>
-                    <div class="content">
-                        <p>신비롭고 환상적인 세계 속 엘프들의 고민을 해결
-                    </br>인원 : <span>1~2인</span> 추천</p>
-                    </div>
-
-                    <div class="mnBtn"><span>예약하기</span></div>
-
+                    <img src="images/javascript.svg" alt="">
+                    <span>JavaScript & jQuery</span>
+                    <p>필수기술인 자바스크립트와 제이쿼리를 활용하여 하드코딩구현 뿐만 아니라 오픈소스를 활용하여 다양한 기능을 구현할 수 있습니다.</p>
+                </div>
+                <div class="box">
+                    <img src="images/photoshop.svg" alt="">
+                    <span>Photoshop</span>
+                    <p>어렸을때부터 블로그 등을 하며 혼자 터득한 기본적인 기술을 사용할 수 있습니다.</p>
+                </div>
+                <div class="box">
+                    <img src="images/figma.svg" alt="">
+                    <span>Figma</span>
+                    <p>이거 더 적기, 기본적인 기능을 사용할 수 있습니다.</p>
+                </div>
+                <div class="box">
+                    <img src="images/mysql.svg" alt="">
+                    <span>MySQL / PHP</span>
+                    <p>전공학과의 장점을 살려 기본적인 웹관련 코딩 뿐만 아니라 mySQL과 php를 활용하여 데이터관리 및 유지보수를 구현할 수 있습니다.</p>
                 </div>
             </div>
-            
         </section>
-     </div>
-    <!-- money ends -->
+    </div>
 
-    <!-- method starts -->
-     <div class="method" id="method">
 
-        <section>
-            <div class="title">
-                <h2>이용 안내</h2>
-                <p>폐쇄공포증, 노약자, 임산부, 음주자 등은<br>
-                입장이 제한됩니다.</p>
+    <!-- section03 portfolio -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="highlight">PORTFOLIO</h2>
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <!-- escape 페이지 -->
+                <div class="swiper-slide">
+                    <div class="flex_box">
+                        <div class="image">
+                            <img src="images/media7.png" alt="escape">
+                        </div>
+
+                        <div class="content">
+                            <h3>escape</h3>
+                            <span>#창작 #반응형 #모바일메뉴</span>
+                            <p>작업 기간 : 2일</p>
+                            <p>직접 디자인 구상을 하여 만든 방탈출카페의 어두운 분위기와 타로카드 이미지의 기묘한 느낌이 합쳐진 방탈출카페 사이트입니다. 윈도우창 크기에 맞춰 반응형 기능을 구현하였습니다. 모바일크기일 시 모바일메뉴가 보이도록 하였습니다.</p>
+                            <div class="btn"><a href="escape/escape.html" target="_blank">사이트 보기</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="flex_box">
+                        <div class="image">
+                            <img src="images/media4.png" alt="버거킹">
+                        </div>
+
+                        <div class="content">
+                            <h3>Burgerking</h3>
+                            <span>#리디자인 #풀다운메뉴 #TOP버튼 #슬라이드버튼</span>
+                            <p>작업 기간 : 2일</p>
+                            <p>버거킹 기존디자인에서 마우스 hover 시 변화가 없는 것과
+                                다소 혼잡한 콘텐츠를 보완하여 만든 리디자인 사이트입니다.
+                                버거킹 특징을 그대로 살리면서 깔끔한 레이아웃 배치를 하였습니다.<br />
+                                햄버거 메뉴 리스트에서 버튼을 누르면 슬라이드 되도록 하드코딩으로
+                                구현하였고 TOP버튼을 추가하여 사용자의 편리함을 고려하였습니다.</p>
+                            <div class="btn"><a href="burgerking/home.html" target="_blank">사이트 보기</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+
+                    <div class="flex_box">
+
+                        <div class="image">
+                            <img src="images/media1.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>향수소개 사이트</h3>
+                            <span>#창작 #애니메이션 #마우스휠이벤트 #반응형</span>
+                            <p>작업 기간 : 30일</p>
+                            <p>학원 포트폴리오로 처음 만들어 본 웹사이트입니다. 주제선정 및 기획 5일,디자인에 시간을 많이 투자하여 18일, 코딩구현 7일 정도
+                                걸렸습니다.<br />서브페이지도 구현하여 메뉴마다 디자인이 다른 서브페이지로 이동합니다. 스크롤 시 이미지가 움직이는 애니메이션을
+                                구현하여 동적인 효과를 냈습니다.</p>
+                            <div class="btn"><a href="sample-simple/index.html" target="_blank">사이트 보기</a></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide">
+
+                    <div class="flex_box">
+                        <div class="image">
+                            <img src="images/media5.png" alt="furniture">
+                        </div>
+
+                        <div class="content">
+                            <h3>furniture</h3>
+                            <span>#창작 #슬라이드버튼 #탭메뉴 #반응형</span>
+                            <p>작업 기간 : 2일</p>
+                            <p>가구, 인테리어 사진들을 직접 찾아 만든 가구 창작 사이트입니다. 분위기 있는 가구 및 인테리어 사이트이기 때문에 디자인에 조금 더
+                                신경썼습니다.<br />은은한 베이지색을 메인색깔로 정하여 비슷한 색감의 사진들을 배치하여 색조 통일감을 주었습니다.<br />
+                                탭메뉴, 슬라이드버튼을 플러그인 없이 직접 하드코딩으로 구현하였습니다.</p>
+                            <div class="btn"><a href="furniture/furniture.html" target="_blank">사이트 보기</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+
+                    <div class="flex_box">
+
+                        <div class="image">
+                            <img src="images/media2.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Labo-H</h3>
+                            <span>#리디자인 #모바일메뉴 #반응형</span>
+                            <p>작업 기간 : 1일</p>
+                            <p>올리브영 샴푸 1위인 라보에이치 샴푸 사이트를 리디자인했습니다. 대표컬러를 활용하여 컬러 통일감을 주었습니다.<br />
+                                토글버튼을 누를 경우 모바일메뉴가 옆에서 나타나도록 구현했습니다.
+                                 라보에이치의 특징과 샴푸 종류를 간단하고 깔끔하게 배치한 것이 특징입니다.</p>
+                            <div class="btn"><a href="laboH/index.html" target="_blank">사이트 보기</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+
+                    <div class="flex_box">
+
+                        <div class="image">
+                            <img src="images/media3.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>할리스</h3>
+                            <span>#리디자인 #반응형 #이미지슬라이드 #모바일메뉴</span>
+                            <p>작업 기간 : 2일</p>
+                            <p>할리스 기존디자인에서 부족한 콘텐츠와 반응형이 적용되지 않은 점을
+                                보완하여 만든 리디자인 사이트입니다.
+                                배너는 포토샵을 이용하여 직접 디자인, 제작하였습니다.<br />커피 사진을 클릭하면 큰 이미지와 그에 대한 설명 기능, 서브배너 디자인 등을
+                                통해 부족한 콘텐츠를 채웠습니다. 또한 윈도우 크기에 따라 바뀌는 반응형을 구현하였습니다.</p>
+                            <div class="btn"><a href="hollys/hollys.html" target="_blank">사이트 보기</a></div>
+                        </div>
+                    </div>
+
+                </div>
+
+ 
+
+                <div class="swiper-slide">
+
+                    <div class="flex_box">
+                        <div class="image">
+                            <img src="images/media6.png" alt="furniture">
+                        </div>
+
+                        <div class="content">
+                            <h3>롯데건설</h3>
+                            <span>#리디자인 #SCSS #페이드인/아웃 #메뉴풀다운 #반응형</span>
+                            <p>작업 기간 : 2일</p>
+                            <p>롯데건설 기존디자인에서 상단메뉴 풀다운 시 이미지가 밀리는 점과 부족한 콘텐츠이며 내용들을 보완한 리디자인 사이트입니다.
+                                유지보수를 쉽게 하기 위해 SCSS로 구현하였습니다.페이드인아웃 슬라이드와 버튼은 플러그인 없이 하드코딩으로 구현했습니다.<br />
+                                주요사업은 꽉 찬 사진 대신 아이콘으로 바꾸어 깔끔함과 통일감을 주었습니다.
+                            <div class="btn"><a href="company/index.html" target="_blank">사이트 보기</a></div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
 
-            <div class="container">
 
-                <div class="box">
-                    <img src="images/back-in-time.png" alt="">
-                    <h2>도착시간 확인</h2>
-                    <p>시작시간 10분 전에 방문하여 원활한 체험을 위한 안내를 받아주시기 바랍니다.</p>
-                </div>
 
-                <div class="box">
-                    <img src="images/camera.png" alt="">
-                    <h2>촬영금지</h2>
-                    <p>테마 내부의 인테리어는 사진촬영이 금지되어 있으며 진행과정은 비밀로 유지해주시기 바랍니다</p>
-                </div>
-
-                <div class="box">
-                    <img src="images/speaking.png" alt="">
-                    <h2>스포금지</h2>
-                    <p>테마 내의 모든 내용 및 결과는 다음 손님들을 위해 
-                        카페 내에서 대화를 금지합니다
-                    </p>
-                </div>
-
-                <div class="box">
-                    <img src="images/cctv-camera.png" alt="">
-                    <h2>CCTV 녹화중</h2>
-                    <p>안전한 방탈출과 원활한 게임진행을 위해 CCTV를 녹화하고 있습니다.</p>
-                </div>
-
-            </div>
-
-        </section>
-     </div>
-    <!-- method ends -->
 
     <footer class="footer">
-
         <section>
-
-            <div class="share">
-                <a href="#" class="fab fa-whatsapp"></a>
-                <a href="#" class="fab fa-youtube"></a>
-                <a href="#" class="fab fa-instagram"></a>
-                <a href="#" class="fab fa-pinterest"></a>
-                <a href="#" class="fab fa-linkedin"></a>
-            </div>
-
-            <div class="credit">created by <span>이예은</span> | all rights reserved!</div>
+            <p>상업목적이 아닌 개인 포트폴리오로 제작되었습니다</p>
+            <p>©2025 Leeyeeun All Rights Reserved.</p>
         </section>
-
     </footer>
 
 
-    <!-- fontAwesome src -->
+
+
+
+
+    <!-- src -->
     <script src="https://kit.fontawesome.com/704cbbaa93.js" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
+    <script src="js/main.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            delay: 300
+        });
+
+    </script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            hashNavigation: {
+                watchState: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
 </body>
+
 </html>
