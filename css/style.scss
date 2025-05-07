@@ -44,6 +44,10 @@ h2 {
     font-size: 3.2rem;
     color: $black;
     margin-bottom: 4rem;
+
+    @media (max-width:$maxwt-2) {
+        font-size: 2.8rem;
+    }
 }
 
 .highlight {
@@ -68,6 +72,17 @@ h2 {
     font-size: 2.5rem;
     color: $black;
     display: none;
+
+    @media (max-width:$maxwt-2) {
+        display: inline-block;
+        cursor: pointer;
+        font-size: 3rem;
+        transition: transform 0.3s ease;
+
+        .fa-xmark{
+            transform: rotate(90deg);
+        }
+    }
 }
 
 /* header */
@@ -119,6 +134,31 @@ h2 {
                     transition: width 0.5s;
                 }
             }
+
+            @media (max-width:$maxwt-2) {
+                position: absolute;
+                top:100%; left:0; right:0;
+                max-height: 0;
+                overflow: hidden;
+                background: white;
+
+                &.active{
+                    max-height: 70vh;
+                    box-shadow: 0 .5rem .8rem rgba(196, 196, 196, 0.3);
+                }
+
+                a{
+                    font-size: 2.2rem;
+                    display: block;
+                    padding:2rem;
+                    margin:0; /* pc일때 left 2rem 줘서 여백생기기때문에 */
+                    text-align: center;
+
+                    &:hover{
+                        color: $subColor;
+                    }
+                }
+            }
         }
     }
 }
@@ -137,10 +177,18 @@ h2 {
 
         p {
             font-size: 2.7rem;
+
+            @media (max-width:$maxwt-2) {
+                font-size: 2rem;
+            }
         }
 
         h3 {
             font-size: 5rem;
+
+            @media (max-width:$maxwt-2) {
+                font-size: 4rem;
+            }
         }
     }
 
@@ -209,6 +257,10 @@ h2 {
 .work {
     text-align: center;
 
+    @media (max-width:$maxwt-2) {
+        padding:2rem 4rem;
+    }
+
     .container {
 
         display: grid;
@@ -217,6 +269,10 @@ h2 {
         grid-auto-rows: 1fr;
         align-items: stretch;
         gap: 2rem;
+
+        @media (max-width:$maxwt-2) {
+            grid-template-columns: repeat(auto-fit, 40rem);
+        }
 
         .box {
             background: #ededed;
