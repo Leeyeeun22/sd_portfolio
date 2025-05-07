@@ -191,11 +191,12 @@ h2 {
   border-left: 5px solid #698ce3;
 }
 .work .container .box .content {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: #242222;
   padding: 2rem 1rem;
   text-align: left;
   position: relative;
+  line-height: 2rem;
 }
 .work .container .box .content::before {
   content: "";
